@@ -30,10 +30,10 @@
 
 ### On Android (Termux)
 
-```bash pkg install git php sqlite nodejs -y
+```bash pkg install git php sqlite nodejs -y 
 git clone https://github.com/Akastha68/hacker_terminal.git
 cd hacker_terminal
-php -S localhost:8080```
+php -S localhost:8080 ```
 
 ---
 
