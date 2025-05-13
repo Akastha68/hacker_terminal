@@ -37,7 +37,7 @@ php -S localhost:8080
 ```
 ---
 
-###On Kali 
+### On Kali 
 
 ```bash sudo apt install git php sqlite nodejs -y
 git clone https://github.com/Akastha68/hacker_terminal.git
@@ -46,8 +46,8 @@ bash sudo php -S localhost:80
 ```
 ---
 
-**Live Page **:- <a href="akashk.unaux.com/hacker">Click here</a>&&<a href="akastha68.github.io/hacker_terminal">Click here</a>
+- **Live Page **:- <a href="akashk.unaux.com/hacker">Click here</a>&&<a href="akastha68.github.io/hacker_terminal">Click here</a>
 
-##Acknowledgement
+## Acknowledgement
 
-###Thank Your Visit Us !!
+### Thank Your Visit Us !!
