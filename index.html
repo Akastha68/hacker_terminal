@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hacker Terminal Simulation</title>
+	<meta name="description" content="A realistic hacker terminal simulation with matrix rain effect, 3D visualization, and interactive commands.">
+	<meta name="keywords" content="hacker, terminal, simulation, matrix, cybersecurity, ethical hacking">
+	<meta name="author" content="Akash Patel">
+	<meta name="theme-color" content="#000">
+	<meta name="robots" content="index, follow">
+	<meta name="googlebot" content="index, follow">
+	<meta property="og:title" content="Hacker Terminal Simulation">
+	<meta property="og:description" content="Experience a realistic hacker terminal with interactive commands and matrix rain effect.">
+	<meta property="og:image" content="https://akashk.unaux.com/hacker/1.jpg">
+	<meta property="og:url" content="https://akashk.unaux.com">
+	<meta property="og:type" content="website">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Hacker Terminal Simulation">
+	<meta name="twitter:description" content="A realistic hacker terminal simulation with matrix rain effect.">
+	<meta name="twitter:image" content="https://akashk.unaux.com/hacker/1.jpg">
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+	<link rel="preconnect" href="https://d3js.org">
+	<link rel="preconnect" href="https://threejs.org">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <div class="matrix-rain"></div>
+    <div class="terminal-container">
+        <h1 id="terminal-title">HACKER TERMINAL</h1>
+        <p> Developed by ==> Akash Patel</p>
+        <p>Instagram :-  @akash.patel459</p>
+        <div id="terminal-output">**view on desktop mode for better performance**<br><br>Press Enter to see command info on android tap on cursor (help) then type enter if any problem occur contact the developer</div>
+        <div class="input-line">
+            <span class="prompt">akash@hacker:~$</span>
+            <input type="text" id="terminal-input" autofocus>
+        </div>
+    </div>
+    <div id="threat-map"></div>
+    <div id="data-visualization"></div>
+    <audio id="background-sound" loop>
+        <source src="background.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>

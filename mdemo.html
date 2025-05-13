@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akash Patel - CV</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0a0a0a;
+            color: #00ffcc;
+            text-align: center;
+            padding: 20px;
+        }
+        .cv-container {
+            background: linear-gradient(135deg, #1e1e1e, #111);
+            padding: 25px;
+            max-width: 900px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0px 0px 20px rgba(0, 255, 204, 0.7);
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid #00ffcc;
+        }
+        h1 {
+            font-size: 32px;
+            color: #ff66ff;
+            text-shadow: 0px 0px 10px #ff66ff;
+        }
+        h2 {
+            color: #00ffcc;
+        }
+        .details {
+            text-align: left;
+            padding: 15px;
+        }
+        .details h3 {
+            color: #ff66ff;
+        }
+        .details ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .details ul li {
+            padding: 5px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #ff66ff;
+            font-weight: bold;
+        }
+        .export-btn {
+            background-color: #00ffcc;
+            color: black;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .export-btn:hover {
+            background-color: #ff66ff;
+            box-shadow: 0px 0px 15px #ff66ff;
+        }
+        fieldset {
+            border: 2px solid #ff66ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: left;
+        }
+        legend {
+            color: #ff66ff;
+            font-weight: bold;
+        }
+        details {
+            margin-top: 20px;
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="cv-container">
+        <h1>I am <span id="typing"></span></h1>
+        <div class="content">
+            <div class="profile-section">
+                <img src="1.jpg" alt="Profile Picture" class="profile-pic">
+                <h2>Akash Patel</h2>
+                <p>Cyber Security Analyst | Ethical Hacker | Full Stack Developer</p>
+            </div>
+
+            <div class="details">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:superficialak@gmail.com">superficialak@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: +91 8081339257</p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Pratapgarh, Uttar Pradesh, India</p>
+
+                <h3>Career Overview</h3>
+                <p>Experienced **Cyber Security Analyst & Full Stack Developer** with expertise in **penetration testing, ethical hacking, and web development**. Passionate about **network security, AI-driven cybersecurity solutions, and software engineering.**</p>
+
+                <h3>Skills</h3>
+                <ul>
+                    <li>💻 Full Stack Web Development (Frontend & Backend)</li>
+                    <li>🔌 Ethical Hacking & Penetration Testing</li>
+                    <li>📡 WiFi Attacks & Network Security</li>
+                    <li>⚙ AI in Cybersecurity & Automation</li>
+                    <li>🐍 Programming: Python, JavaScript, PHP, C, C++, C#, Rust, Ruby</li>
+                    <li>🖥️ Database Management (MySQL, SQLite3)</li>
+                    <li>🔬 Web Scraping & Data Extraction (Selenium)</li>
+                    <li>🛠️ Tools: Termux, Kali NetHunter, Scapy, Flask</li>
+                </ul>
+
+                <h3>Experience</h3>
+                <p>👨‍💻 **Senior Developer at XYZ Corp (2020 - Present)**</p>
+                <p>💻 **Junior Developer at ABC Inc (2018 - 2020)**</p>
+
+                <h3>Projects</h3>
+                <ul>
+                    <li>🛡️ **Ultimate Hacker Terminal** - A simulated hacker terminal with cybersecurity tools.</li>
+                    <li>📡 **WiFi Captive Portal** - Custom captive portal for ethical security testing.</li>
+                    <li>🔍 **Web Scraper** - Automated web data extraction using Selenium.</li>
+                    <li>🗄️ **User Authentication System** - Secure login system with SQLite3 & Flask.</li>
+                </ul>
+
+                <h3>Certifications & Achievements</h3>
+                <ul>
+                    <li>🏆 Ethical Hacking & Penetration Testing (Certified)</li>
+                    <li>🏅 Advanced Web Development & Cybersecurity Training</li>
+                    <li>🥇 Full Stack Developer - Industry Recognized Certification</li>
+                </ul>
+            </div>
+
+            <fieldset>
+                <legend>Who am I?</legend>
+                <p>I am a **Cyber Security Analyst**. I use modern tools and AI in cybersecurity.</p>
+            </fieldset>
+
+            <fieldset>
+                <legend>What can I do?</legend>
+                <p>Web development, penetration testing, AI in security, automation.</p>
+            </fieldset>
+
+            <details>
+                <summary>More about me</summary>
+                <p>I am **Akash Patel**, an ethical hacker and full-stack developer.</p>
+            </details>
+
+        </div>
+
+        <button class="export-btn" id="export-pdf"><i class="fas fa-file-pdf"></i> Export to PDF</button>
+    </div>
+
+    <script>
+        const roles = ["Cyber Security Analyst", "Ethical Hacker", "Full Stack Developer", "Penetration Tester"];
+        let roleIndex = 0;
+        let charIndex = 0;
+        let typingElement = document.getElementById("typing");
+
+        function typeRole() {
+            if (charIndex < roles[roleIndex].length) {
+                typingElement.innerHTML += roles[roleIndex].charAt(charIndex);
+                charIndex++;
+                setTimeout(typeRole, 100);
+            } else {
+                setTimeout(eraseRole, 2000);
+            }
+        }
+
+        function eraseRole() {
+            if (charIndex > 0) {
+                typingElement.innerHTML = roles[roleIndex].substring(0, charIndex - 1);
+                charIndex--;
+                setTimeout(eraseRole, 50);
+            } else {
+                roleIndex = (roleIndex + 1) % roles.length;
+                setTimeout(typeRole, 500);
+            }
+        }
+
+        typeRole();
+
+        document.getElementById("export-pdf").addEventListener("click", function () {
+            html2pdf().from(document.querySelector(".cv-container")).save("Akash_Patel_CV.pdf");
+        });
+    </script>
+
+</body>
+</html>
