@@ -30,22 +30,20 @@
 
 ### On Android (Termux)
 
-```bash
-pkg install git php sqlite nodejs -y
-git clone https://github.com/your-username/hacker_terminal
-cd hacker_terminal
-php -S localhost:8080
-
+```bash pkg install git php sqlite nodejs -y```
+```bash git clone https://github.com/Akastha68/hacker_terminal.git```
+```bash cd hacker_terminal```
+```bash php -S localhost:8080```
+**All in one:-** ```bash pkg install git php sqlite nodejs -y && git clone https://github.com/Akastha68/hacker_terminal.git && cd hacker_terminal && php -S localhost:8080```
 ---
 
 ###On Kali 
 
-```bash
-sudo apt install git php sqlite nodejs -y
-git clone https://github.com/your-username/hacker_terminal
-cd hacker_terminal
-sudo php -S localhost:80
-
+```bash sudo apt install git php sqlite nodejs -y```
+```bash git clone https://github.com/Akastha68/hacker_terminal.git```
+```bash cd hacker_terminal```
+```bash sudo php -S localhost:80```
+**All in one :- ** ```bash sudo apt install git php sqlite nodejs -y && git clone https://github.com/Akastha68/hacker_terminal.git && cd hacker_terminal && php-S localhost```
 ---
 
 **Live Page **:- <a href="akashk.unaux.com/hacker">Click here</a>&&<a href="akastha68.github.io/hacker_terminal">Click here</a>
