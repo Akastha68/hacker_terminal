@@ -11,9 +11,7 @@
 - **Packet sniffing simulation with fake data**
 - **Live port scanning & spoofed target IPs**
 - **Randomized data decryption tasks**
-- **GPS/IP location trace simulations**
 - **Modular command system** for extendability
-- **Keyboard-only terminal experience**
 - **Cross-platform**: Android (via Termux) & Desktop
 
 ---
@@ -37,3 +35,17 @@ pkg install git php sqlite nodejs -y
 git clone https://github.com/your-username/hacker_terminal
 cd hacker_terminal
 php -S localhost:8080
+
+###On Kali 
+
+```bash
+sudo apt install git php sqlite nodejs -y
+git clone https://github.com/your-username/hacker_terminal
+cd hacker_terminal
+sudo php -S localhost:80
+
+**Live Page **:- <a href="akashk.unaux.com/hacker">Click here</a>&&<a href="akastha68.github.io/hacker_terminal">Click here</a>
+
+##Acknowledgement
+
+###Thank Your Visit Us !!
