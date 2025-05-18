@@ -30,9 +30,16 @@
 
 ### On Android (Termux)
 
-```bash pkg install git php sqlite nodejs -y 
+```bash
+pkg install git php sqlite nodejs python3 -y
+```
+```bash
 git clone https://github.com/Akastha68/hacker_terminal.git
+```
+```bash
 cd hacker_terminal
+```
+```bash
 python -m http.server 8080
 ```
 ---
@@ -40,9 +47,15 @@ python -m http.server 8080
 ### On Kali 
 
 ```bash sudo apt install git php sqlite nodejs -y
+```
+```bash
 git clone https://github.com/Akastha68/hacker_terminal.git
+```
+```bash 
 cd hacker_terminal
-bash sudo python -m http.server 80
+```
+```bash
+sudo python -m http.server 80
 ```
 ---
 
