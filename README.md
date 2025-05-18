@@ -46,7 +46,8 @@ python -m http.server 8080
 
 ### On Kali 
 
-```bash sudo apt install git php sqlite nodejs -y
+```bash
+sudo apt install git php python3 sqlite nodejs -y
 ```
 ```bash
 git clone https://github.com/Akastha68/hacker_terminal.git
