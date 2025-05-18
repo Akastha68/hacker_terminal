@@ -33,7 +33,7 @@
 ```bash pkg install git php sqlite nodejs -y 
 git clone https://github.com/Akastha68/hacker_terminal.git
 cd hacker_terminal
-php -S localhost:8080
+python -m http.server 8080
 ```
 ---
 
@@ -42,7 +42,7 @@ php -S localhost:8080
 ```bash sudo apt install git php sqlite nodejs -y
 git clone https://github.com/Akastha68/hacker_terminal.git
 cd hacker_terminal
-bash sudo php -S localhost:80
+bash sudo python -m http.server 80
 ```
 ---
 
