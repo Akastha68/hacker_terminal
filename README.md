@@ -60,7 +60,7 @@ sudo python -m http.server 80
 ```
 ---
 
-- **Live Page**:- <a href="akashk.unaux.com/hacker">Click here</a>&&<a href="akastha68.github.io/hacker_terminal">Click here</a>
+- **Live Page**:- <a href="https://akashk.unaux.com/hacker">Click here</a>&&<a href="https://akastha68.github.io/hacker_terminal">Click here</a>
 
 ## Acknowledgement
 
